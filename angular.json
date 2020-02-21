@@ -27,7 +27,8 @@
               "src/assets/css/material-kit.css",
               "src/assets/demo/demo.css",
               "src/assets/demo/vertical-nav.css",
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/font/font.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",

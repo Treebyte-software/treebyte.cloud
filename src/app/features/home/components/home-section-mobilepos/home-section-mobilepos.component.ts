@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeSectioMobileposComponent implements OnInit {
   title = 'MOBILE POS';
   description2 = 'La soluzione progettata per il tuo Retail: in cloud, sempre disponibile, fruibile da qualsiasi dispositivo mobile e integrata con le più diffuse piattaforme ERP: Zucchetti, Microsoft, Oracle e SAP.  ';
+  titleBtn = 'Maggiori informazioni';
   constructor() { }
 
   ngOnInit(): void {

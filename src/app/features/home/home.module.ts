@@ -11,11 +11,13 @@ import { HomeSectionStockstorecloudComponent } from './components/home-section-s
 import { HomeSectionHeaderComponent } from './components/home-section-header/home-section-header.component';
 import { HomeSectionMainComponent } from './components/home-section-main/home-section-main.component';
 import { HomeSectionMainraisedComponent } from './components/home-section-mainraised/home-section-mainraised.component';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [HomeComponent, HomeFeaturesComponent, HomeSloganComponent, HomeSectionStockstoreComponent, HomeSloganBrandComponent, HomeSectionFreeDemoComponent, HomeSectioMobileposComponent, HomeSectionStockstorecloudComponent, HomeSectionHeaderComponent, HomeSectionMainComponent, HomeSectionMainraisedComponent],
-  imports: [
-    CommonModule
-  ]
+    imports: [
+        CommonModule,
+        RouterModule
+    ]
 })
 export class HomeModule { }

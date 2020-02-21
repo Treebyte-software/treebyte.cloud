@@ -10,3 +10,26 @@ h3.title span{
 h3.title span.cloud {
   color:#cccccc !important;
 }
+.section-content .image-container .area-img {
+  top: 10%;
+  left: 60%;
+  height: 300px;
+  width: 250px;
+  z-index: 2;
+  -webkit-transition: all 2s ease-out 0s !important;
+  -moz-transition: all 2s ease-out 0s !important;
+  -o-transition: all 2s ease-out 0s !important;
+  -ms-transition: all 2s ease-out 0s !important;
+  transition: all 2s ease-out 0s !important;
+}
+.section-content .image-container .info-img {
+  top: 50%;
+  left: 0%;
+  height: 200px;
+  width: 300px;
+  -webkit-transition: all 2s ease-out 0s !important;
+  -moz-transition: all 2s ease-out 0s !important;
+  -o-transition: all 2s ease-out 0s !important;
+  -ms-transition: all 2s ease-out 0s !important;
+  transition: all 2s ease-out 0s !important;
+}

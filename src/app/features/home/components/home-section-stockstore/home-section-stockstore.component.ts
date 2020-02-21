@@ -10,6 +10,7 @@ export class HomeSectionStockstoreComponent implements OnInit {
   title2 = 'STORE';
   description1 = 'Una piattaforma scalabile per tutti i processi del Retail';
   description2 = 'StockStore è una suite integrata di applicazioni e tecnologie intelligenti per catene retail che ambiscono a modelli di business innovativi e desiderano offrire customer experience personalizzate e pensate per ciascun settore merceologico.';
+  titleBtn = 'Maggiori informazioni';
   constructor() { }
 
   ngOnInit(): void {

@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-section-free-demo.component.css']
 })
 export class HomeSectionFreeDemoComponent implements OnInit {
-  title = 'Free Demo';
-  description1 = 'Do you want to test and see the benefits of this kit before purchasing it? You can give the demo version a try. It features enough basic components for you to get a feel of the design and also test the quality of the code. Get it free on GitHub!';
-  titleBtn = 'View Demo on Github';
+  title = 'Free';
+  title2 = ' Demo';
+  description1 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et lectus nisi. Vivamus nec ullamcorper nunc. Proin tristique vel enim quis elementum.';
+  titleBtn = 'Access Demo';
   constructor() { }
 
   ngOnInit(): void {

@@ -1,3 +1,13 @@
 .fa-rocket{
   color:#a81f00 !important;
+  font-size:60px;
+}
+h3.title{
+  color: #a81f00;
+  text-decoration: none;
+  font-weight: 400 !important;
+  font-family: "Tahoma", "Times New Roman", serif !important;
+}
+h3.title span{
+  color:#727272 !important;
 }
